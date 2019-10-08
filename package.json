@@ -1,0 +1,24 @@
+{
+  "name": "pluralize-ts",
+  "version": "1.0.0",
+  "description": "TS version of pluralize package",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertoyoc/pluralize-ts.git"
+  },
+  "keywords": [
+    "pluralize",
+    "typescript",
+    "angular"
+  ],
+  "author": "robertoyoc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robertoyoc/pluralize-ts/issues"
+  },
+  "homepage": "https://github.com/robertoyoc/pluralize-ts#readme"
+}
