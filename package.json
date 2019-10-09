@@ -1,5 +1,5 @@
 {
-  "name": "pluralize-ts",
+  "name": "typescript-pluralize",
   "version": "1.0.0",
   "description": "TS version of pluralize package",
   "main": "lib/index.js",
@@ -9,15 +9,15 @@
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
-    "prepare" : "npm run build",
-    "prepublishOnly" : "npm test && npm run lint",
-    "preversion" : "npm run lint",
-    "version" : "npm run format && git add -A src",
-    "postversion" : "git push && git push --tags"
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/robertoyoc/pluralize-ts.git"
+    "url": "git+https://github.com/robertoyoc/typescript-pluralize.git"
   },
   "keywords": [
     "pluralize",
@@ -27,12 +27,13 @@
   "author": "robertoyoc",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/robertoyoc/pluralize-ts/issues"
+    "url": "https://github.com/robertoyoc/typescript-pluralize/issues"
   },
-  "homepage": "https://github.com/robertoyoc/pluralize-ts#readme",
+  "homepage": "https://github.com/robertoyoc/typescript-pluralize#readme",
   "devDependencies": {
     "@types/jest": "^24.0.18",
     "jest": "^24.9.0",
+    "pluralize": "^8.0.0",
     "prettier": "^1.18.2",
     "ts-jest": "^24.1.0",
     "tslint": "^5.20.0",
